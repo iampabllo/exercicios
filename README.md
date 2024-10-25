@@ -1,6 +1,5 @@
 # Exercícios de HTML e CSS
-
-Este repositório contém uma série de exercícios para praticar **HTML** e **CSS** com foco em propriedades de **Flexbox**. Cada exercício explora diferentes conceitos de layout responsivo e estilização com CSS.
+Este repositório contém exercícios de HTML e CSS desenvolvidos para treinar conceitos básicos e avançados, incluindo Flexbox, Grid, responsividade, animações, estilização e muito mais.
 
 ## Índice
 1. [Exercício 1](https://github.com/iampabllo/exercicios/tree/main/display-flex/exec001)
@@ -8,79 +7,18 @@ Este repositório contém uma série de exercícios para praticar **HTML** e **C
 3. [Exercício 3](https://github.com/iampabllo/exercicios/tree/main/display-flex/exec003)
 4. [Exercício 4](https://github.com/iampabllo/exercicios/tree/main/display-flex/exec004)
 
----
 
-### Exercício 1: Alinhamento Horizontal de Itens
-**Objetivo:** Criar uma caixa com três elementos (`<div>`) centralizados horizontalmente usando Flexbox.
+## Como usar este repositório
+1. Clone o repositório para o seu computador:
+   ```bash
+   git clone https://github.com/seuusuario/exercicios-html-css.git
+   ```
+2. Navegue para a pasta do exercício que deseja realizar.
+3. Abra o arquivo `.html` correspondente no navegador para visualizar o resultado.
 
-**CSS Principal:**
-```css
-.container {
-  display: flex;
-  justify-content: center;
-}
-```
-
-**Desafio Adicional:** Experimente outros valores para `justify-content`, como `space-around`, `space-between`, e observe o comportamento.
+## Sugestões para Contribuir
+Este repositório é destinado a prática pessoal. Caso você tenha sugestões de exercícios adicionais ou melhorias, fique à vontade para contribuir!
 
 ---
 
-### Exercício 2: Alinhamento Vertical de Itens
-**Objetivo:** Colocar três elementos dentro de um contêiner e alinhá-los verticalmente ao centro da caixa.
-
-**CSS Principal:**
-```css
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-```
-
-**Desafio Adicional:** Altere o valor de `align-items` para `flex-start` ou `flex-end` e observe as mudanças.
-
----
-
-### Exercício 3: Layout em Coluna com Flexbox
-**Objetivo:** Organizar três caixas (`<div>`) em uma coluna dentro do contêiner usando `flex-direction: column`.
-
-**CSS Principal:**
-```css
-.container {
-  display: flex;
-  flex-direction: column;
-}
-```
-
-**Desafio Adicional:** Altere `flex-direction` para `row` para entender como o layout muda.
-
----
-
-### Exercício 4: Distribuindo Espaços com Flexbox
-**Objetivo:** Usar `flex-grow` para fazer com que as caixas cresçam para ocupar o espaço disponível.
-
-**CSS Principal:**
-```css
-.box {
-  flex-grow: 1;
-}
-```
-
-**Desafio Adicional:** Defina valores diferentes para `flex-grow` em cada caixa para ver o efeito.
-
----
-
-### Exercício 5: Flexbox Responsivo
-**Objetivo:** Criar um layout de galeria de imagens que se ajusta automaticamente à largura da tela, usando `flex-wrap`.
-
-**CSS Principal:**
-```css
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-```
-
-**Desafio Adicional:** Redimensione a janela do navegador para ver como os itens se reorganizam automaticamente.
-
----
+Este README oferece uma visão geral dos tópicos abordados e dá instruções para navegar e usar o repositório. Adicione novos tópicos conforme você explora mais aspectos de HTML e CSS.
