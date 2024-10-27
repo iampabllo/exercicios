@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEDIA QUERY: Exerecício 01</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 200px;
+      border: 1px solid #000;
+      background-color: aqua;
+    }
+
+    #box span {
+      font-size: 18px;
+      font-weight: 600;
+      /* display: none; */
+    }
+
+    @media (max-width: 400px) {
+      #box {
+        background-color: rgb(243, 200, 72);
+      }
+
+      S #box span {
+        display: inline;
+        color: aliceblue;
+      }
+    }
+
+
+    @media (max-width: 600px) and (min-width: 400px) {
+      #box {
+        background-color: blueviolet;
+      }
+
+      #box span {
+        display: inline;
+        color: aliceblue;
+      }
+    }
+  </style>
+</head>
+
+<!-- 
+Exercício 1: Altere o Fundo de Cor com Media Queries
+
+Objetivo:
+
+Crie uma página com uma <div> centralizada e defina uma cor de fundo que mude conforme o tamanho da tela:
+
+- Quando a tela tiver largura maior que 600px, a cor de fundo da <div> deve ser azul.
+
+- Quando a tela tiver largura entre 400px e 600px, a cor deve ser verde.
+
+- Quando a tela tiver menos de 400px, a cor deve ser vermelha.
+
+Instruções:
+
+Crie um arquivo HTML e adicione uma <div> com a classe .box.
+Use media queries para aplicar os estilos de acordo com o tamanho da tela. -->
+
+<body>
+  <div id="box"><span>600px</span></div>
+
+</body>
+
+</html>
