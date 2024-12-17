@@ -7,7 +7,7 @@ Este repositório contém exercícios de HTML e CSS desenvolvidos para treinar c
 1. [Exercício 1](https://github.com/mtzcode/meus-exercicios/tree/main/ex001)
 2. [Exercício 2](https://github.com/mtzcode/meus-exercicios/tree/main/ex002)
 3. [Exercício 3](https://github.com/mtzcode/meus-exercicios/tree/main/ex003)
-4. [Exercício 4](https://github.com/iampabllo/exercicios/tree/main/display-flex/exec004)
+4. [Exercício 4](https://github.com/mtzcode/meus-exercicios/tree/main/ex004)
 
 ## Como usar este repositório
 
